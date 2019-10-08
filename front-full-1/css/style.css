@@ -1,0 +1,295 @@
+body {
+    font-family: vazir;
+    text-align: right;
+    direction: rtl;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.navbar-dark {
+    /*    background-color:#423;*/
+
+}
+.nav-menu2{
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+.btn-dow {
+    /*    background-color:bisque;*/
+    /*    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
+    /*    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);*/
+    */
+    /*    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);*/
+    margin: 4px;
+    border-style: solid 10px;
+    border-color: aqua;
+    border-radius: 12px;
+    color: bisque 0;
+}
+
+@media(max-width:576px) {
+    .menu-collapse {
+        background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    }
+}
+
+.app-pic {
+    width: 50%;
+    margin-top: 80px;
+
+}
+
+.navbar-main-nav {
+    height: 80px;
+    color: #345;
+}
+
+/*
+.menu-gradient {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+*/
+
+header {
+    padding: 5px 0;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.container-body {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+.header-title {
+    font-style: italic;
+    margin-top: 50px;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+#submit-email {
+    margin: 4px;
+    width: 130px;
+    height: 50px;
+    border-style: solid 10px;
+    border-color: aqua;
+    border-radius: 12px;
+    background-color: darkblue;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#email-email {
+    background-color: azure;
+    font-size: 20px;
+    color: blue;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+#submit-email:hover {
+    background-color: dodgerblue;
+    transition-delay: 300ms;
+}
+
+.client {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.client img {
+    opacity: .5;
+    max-width: 130px;
+    padding: 5px;
+}
+
+.client img:hover {
+    opacity: 2;
+    transition-delay: 300ms;
+}
+
+.card-main {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-color: #4533;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.card-price {
+    border-radius: 5px;
+    color: blue;
+    background-color: azure;
+    padding: 3px;
+    font-size: 39;
+}
+
+.card-main ul li {
+    font-size: 20;
+    padding: 5px;
+    color: blanchedalmond;
+}
+
+.card-footer a {
+    font-size: 40px;
+    padding: 7px;
+    color: blue !important;
+}
+
+.card-footer button {
+    background-color: azure !important;
+    width: 100;
+    font-size: 20;
+    border-radius: 10px !important;
+}
+
+.card-footer button:hover {
+    background-color: darkblue !important;
+    color: aliceblue;
+}
+
+.card-main h3 {
+    color: darkorange;
+}
+
+.card-main:hover {
+    transition-delay: .2s asea;
+    box-shadow: 1px 3px 20px -2px rgba(0, 0, 0, 4);
+    transform: translateY(10px);
+}
+
+.team-heading h2 {
+    font-weight: 300;
+    color: #ae37bb;
+    font-size: 45px;
+    margin: 30px 0;
+}
+
+.team img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.member-img {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.memer-info h4 {
+    font-size: 22px;
+    color: #ae37bb;
+    ;
+}
+
+.memer-info p {
+    color: #c7c7c7;
+}
+
+.team-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(215, 135, 246, 0.8);
+    opacity: 0;
+    transition: all 500ms;
+}
+
+.member:hover .team-hover {
+    opacity: 1;
+    ;
+}
+
+.team-social-icon {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-social-icon a {
+    font-size: 14px;
+    color: #cc208e;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin: 5px;
+    display: block;
+    line-height: 45px;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: brown;
+    ;
+}
+
+.team-social-icon a i {
+    width: 15px;
+    margin: 5px;
+}
+
+.owl-them .owl-dots {
+    margin-top: 10ppx;
+    text-align: center;
+}
+
+.owl-them .owl-dots .owl-dot {
+    background-color: #432e;
+    width: 20px;
+    height: 20px;
+    padding: 9px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.owl-them .owl-dots .owl-dot:hover {
+    background-color: bisque;
+    transition-delay: 300ms;
+}
+
+.img-gallery .owl-item {
+    transform: scale(.7);
+}
+
+.img-gallery .owl-item.center {
+    transform: scale(.8);
+}
+
+.gallery-item img {
+    width: 100%;
+    filter: brightness(50%);
+    margin: 10px;
+}
+
+.gallery-item img:hover {
+    filter: none;
+    transition-delay: 300ms;
+    transform:scale(1.1);
+}
+
+.foterr{
+    color: aliceblue;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.call-action{
+    margin: 0 auto;
+}
+.custom-btn{
+    background-color: antiquewhite;
+    width: 70px;
+    height: 40px;
+    filter: grayscale(100%);
+}
+.custom-btn:hover{
+    background-color: aqua;
+    transition-delay: 300ms;
+    filter: none;
+}
